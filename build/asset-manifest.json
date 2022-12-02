@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3ccee595.css",
+    "main.js": "/static/js/main.a1a5e2ea.js",
+    "static/js/787.0e31295a.chunk.js": "/static/js/787.0e31295a.chunk.js",
+    "static/media/3dVideoFile.mp4": "/static/media/3dVideoFile.b18f2a9b471c8ac622f4.mp4",
+    "static/media/nightSc.jpg": "/static/media/nightSc.8d324c6b1c7ed5785c39.jpg",
+    "static/media/dayandnightrentallogo.mp4": "/static/media/dayandnightrentallogo.089db0a3ac3fb4e076e0.mp4",
+    "static/media/daySc.jpg": "/static/media/daySc.536249fe00fecb80742d.jpg",
+    "static/media/3DText.png": "/static/media/3DText.21c79ed25090e3fae21b.png",
+    "index.html": "/index.html",
+    "main.3ccee595.css.map": "/static/css/main.3ccee595.css.map",
+    "main.a1a5e2ea.js.map": "/static/js/main.a1a5e2ea.js.map",
+    "787.0e31295a.chunk.js.map": "/static/js/787.0e31295a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ccee595.css",
+    "static/js/main.a1a5e2ea.js"
+  ]
+}

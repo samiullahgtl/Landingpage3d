@@ -1,0 +1,57 @@
+/*Button container*/
+.btn-1 {
+    margin-left: 80%;
+    padding-top: 10%;
+}
+
+/*Button 1*/
+#b1 {
+    border-radius: 50%;
+    border: none;
+    margin: 0px 60px 0px 135px;
+    border-bottom: 1px solid rgb(173, 34, 32);
+    background:  rgb(132, 14, 12);
+    box-shadow: 1px 3px 0px 1px rgb(99, 16, 14);
+    position: relative;
+    top: -1px;
+}
+
+/*Blended button*/
+.b1 {
+    cursor: pointer;
+    border-radius: 100%;
+    border: none;
+    margin: 0px 130px 0px 2px;
+    border-bottom: 8px solid rgb(226, 46, 42);
+    background: transparent;
+    box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.9);
+    text-shadow: -5px 0 rgb(184, 36, 33), 0 1px rgb(184, 36, 33), 5px 0 rgb(184, 36, 33), 0 -1px rgb(184, 36, 33);
+    position: relative;
+    right: 0px;
+    top: -1px;
+}
+
+/*Main button*/
+.b-1 {
+    cursor: pointer;
+    color: White;
+    font-family: 'Lemon', cursive;
+    /* font-size: 50px; */
+    border-radius: 100%;
+    border: none;
+    border-right: 2px solid white;
+    padding: 8px 20px 10px 20px;
+    background: rgb(255, 69, 66);
+    /* text-shadow: -4px 0 rgb(184, 36, 33), 0 4px rgb(184, 36, 33), 4px 0 rgb(184, 36, 33), 0 -4px rgb(184, 36, 33); */
+    position: relative;
+    left: 0%;
+    top: 0%;
+    box-shadow: 1px 5px 5px rgb(226, 10, 42);
+}
+
+/*When button pushed it contains some action*/
+.b-1:active {
+    position: relative;
+    right: 0px;
+    top: 6px;
+}
