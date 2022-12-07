@@ -7,6 +7,7 @@ export default props => {
         <div>
             <video
                 style={{
+                    marginTop: '220px',
                     borderRadius: 40,
                     cursor: 'pointer'
                 }}

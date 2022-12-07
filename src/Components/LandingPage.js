@@ -7,7 +7,7 @@ import Video from './Video';
 import logovideo from '../Components/assets/dayandnightrentallogo.mp4';
 import Typography from '@mui/material/Typography';
 import Button001 from './Btn';
-import text from '../Components/assets/3DText.png';
+import text from '../Components/assets/3Dtext.png';
 
 function LandingPage() {
 
@@ -18,7 +18,7 @@ function LandingPage() {
     };
 
     return (
-        <div className={night ? 'dark' : 'light'}>
+        <div className={night ? 'dark' : 'light'} style={{overflowY: 'auto'}}>
             <div>
                 <video
                     style={{
@@ -38,7 +38,7 @@ function LandingPage() {
                     <Typography
                         marginTop={1.5}
                         paddingX={2}
-                        fontSize={24}
+                        fontSize={30}
                         variant="button"
                         display="block"
                         style={{
@@ -47,21 +47,21 @@ function LandingPage() {
                             color: 'black',
                             position: 'absolute',
                             top: 35,
-                            left: 150
+                            left: 300
                         }}
                         gutterBottom>
                         Presents:
                     </Typography>
                 </div>
                 <div>
-                    <img src={text} style={{ height: '50%', width:'50%', position: 'absolute', left: '25%', top: '-10%'}} />
+                    <img src={text} style={{ height: '50%', width: '50%', position: 'absolute', left: '35%', top: '-10%' }} />
                 </div>
             </div>
             <div>
-                <Button001 onclick={handleClick} />
+                {/* <Button001 onclick={handleClick} /> */}
             </div>
             <div>
-                <Tilt
+                {/* <Tilt
                     options={{
                         max: 0,
                         perspective: 1000,
@@ -74,9 +74,9 @@ function LandingPage() {
                         glare: false,
                         "max-glare": 1,
                         "glare-prerender": false
-                    }} >
+                    }} > */}
                     <Video />
-                </Tilt>
+                {/* </Tilt> */}
             </div>
         </div>
     );
