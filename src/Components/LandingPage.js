@@ -18,7 +18,7 @@ function LandingPage() {
     };
 
     return (
-        <div className={night ? 'dark' : 'light'} style={{overflowY: 'auto'}}>
+        <div className={night ? 'dark' : 'light'} style={{ overflowY: 'auto' }}>
             <div>
                 <video
                     style={{
@@ -28,34 +28,33 @@ function LandingPage() {
                     }}
                     width="12%"
                     height="12%"
+                    className='logo'
                     loop
                     muted
                     playsInline
                     autoPlay={"autoplay"}>
                     <source src={logovideo} type="video/mp4" />
                 </video>
-                <div>
-                    <Typography
-                        marginTop={1.5}
-                        paddingX={2}
-                        fontSize={30}
-                        variant="button"
-                        display="block"
-                        style={{
-                            fontFamily: "Rubik Wet Paint",
-                            // backgroundColor: 'white',
-                            color: 'black',
-                            position: 'absolute',
-                            top: 35,
-                            left: 300
-                        }}
-                        gutterBottom>
-                        Presents:
-                    </Typography>
-                </div>
-                <div>
-                    <img src={text} style={{ height: '50%', width: '50%', position: 'absolute', left: '35%', top: '-10%' }} />
-                </div>
+                <Typography
+                    marginTop={0}
+                    paddingX={2}
+                    fontSize={'340%'}
+                    variant="button"
+                    display="block"
+                    style={{
+                        fontFamily: "Amatic SC",
+                        // backgroundColor: 'white',
+                        color: 'white',
+                        fontWeight: 'bold',
+                        position: 'absolute',
+                        top: '5%',
+                        left: '25%'
+                    }}
+                    gutterBottom>
+                    Presents:
+                </Typography>
+                {/* left:500, top:-50 */}
+                <img src={text} className='text' height={400} width={500} paddingLeft={50} style={{ position: 'absolute', top: -10 }} />
             </div>
             <div>
                 {/* <Button001 onclick={handleClick} /> */}
@@ -75,7 +74,7 @@ function LandingPage() {
                         "max-glare": 1,
                         "glare-prerender": false
                     }} > */}
-                    <Video />
+                <Video />
                 {/* </Tilt> */}
             </div>
         </div>

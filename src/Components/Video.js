@@ -7,12 +7,15 @@ export default props => {
         <div>
             <video
                 style={{
-                    marginTop: '220px',
+                    // marginTop: '220px',
                     borderRadius: 40,
                     cursor: 'pointer'
                 }}
-                width="50%"
-                height="50%"
+                // width="50%"
+                // height="50%"
+                className="video"
+                height= {400}
+                width= {600}
                 loop
                 controls
                 autoPlay={true}>
