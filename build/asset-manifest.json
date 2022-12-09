@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.5eb6a33f.css",
-    "main.js": "/static/js/main.b24dec66.js",
+    "main.css": "/static/css/main.8ef39420.css",
+    "main.js": "/static/js/main.da0ed482.js",
     "static/js/787.0e31295a.chunk.js": "/static/js/787.0e31295a.chunk.js",
     "static/media/3dVideoFile.mp4": "/static/media/3dVideoFile.b18f2a9b471c8ac622f4.mp4",
     "static/media/nightSc.jpg": "/static/media/nightSc.8d324c6b1c7ed5785c39.jpg",
     "static/media/dayandnightrentallogo.mp4": "/static/media/dayandnightrentallogo.089db0a3ac3fb4e076e0.mp4",
     "static/media/daySc.jpg": "/static/media/daySc.536249fe00fecb80742d.jpg",
-    "static/media/btn2.png": "/static/media/btn2.2d4acd10a4f26b07e779.png",
     "static/media/3Dtext.png": "/static/media/3Dtext.c91d029e2c2e10b4a7ba.png",
-    "static/media/btn1.png": "/static/media/btn1.e2a0b0d43ef3dddb7869.png",
     "index.html": "/index.html",
-    "main.5eb6a33f.css.map": "/static/css/main.5eb6a33f.css.map",
-    "main.b24dec66.js.map": "/static/js/main.b24dec66.js.map",
+    "main.8ef39420.css.map": "/static/css/main.8ef39420.css.map",
+    "main.da0ed482.js.map": "/static/js/main.da0ed482.js.map",
     "787.0e31295a.chunk.js.map": "/static/js/787.0e31295a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5eb6a33f.css",
-    "static/js/main.b24dec66.js"
+    "static/css/main.8ef39420.css",
+    "static/js/main.da0ed482.js"
   ]
 }
