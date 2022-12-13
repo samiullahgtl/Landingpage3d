@@ -40,47 +40,45 @@ function LandingPage() {
                         <source src={logovideo} type="video/mp4" />
                     </video>
                     <Grid container spacing={2}>
-                    <Grid item xs={12} md={3}></Grid>
+                        <Grid item xs={12} md={3}></Grid>
                         <Grid item xs={12} md={6}>
-                        <Grid item xs={12} md={1}>
-                        <Typography
-                            marginTop={0}
-                            paddingX={2}
-                            fontSize={'340%'}
-                            style={{
-                                fontFamily: "Amatic SC",
-                                // backgroundColor: 'white',
-                                color: 'white',
-                                fontWeight: 'bold',
-                                marginTop: '10%'
-                               
-                            }}
-                            variant="button"
-                            display="block"
-                            gutterBottom>
-                            Presents:
-                            
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={12} md={11}>
-                        <img
-                                src={text}
-                               // className='text'
-                               top='10%'
-                                height='70%'
-                                width={'70%'}
-                                style={{
-                                    marginTop: '-15%',
-                                    textAlign: 'center',
-                                }}
-                            />
+                            <Grid item xs={12} md={1}>
+                                <Typography
+                                    marginTop={0}
+                                    paddingX={2}
+                                    fontSize={'340%'}
+                                    style={{
+                                        fontFamily: "Rubik Wet Paint",
+                                        // backgroundColor: 'white',
+                                        color: 'white',
+                                        marginTop: '30%'
+
+                                    }}
+                                    variant="button"
+                                    display="block"
+                                    gutterBottom>
+                                    Presents:
+                                </Typography>
+                            </Grid>
+                            <Grid item xs={12} md={11}>
+                                <img
+                                    src={text}
+                                    // className='text'
+                                    top='10%'
+                                    height='600px'
+                                    width={'600px'}
+                                    style={{
+                                        marginTop: '-35%',
+                                        textAlign: 'center',
+                                    }}
+                                />
                             </Grid>
                         </Grid>
                         <Grid item xs={12} md={12}>
-                        <Video />
+                            <Video />
                         </Grid>
-                        </Grid>
-                        
+                    </Grid>
+
 
                 </div>
                 {/* <div>
@@ -101,7 +99,7 @@ function LandingPage() {
                         "max-glare": 1,
                         "glare-prerender": false
                     }} > */}
-                    
+
                     {/* </Tilt> */}
                 </div>
             </div>

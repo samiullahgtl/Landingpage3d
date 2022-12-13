@@ -10,14 +10,14 @@ export default props => {
                     // marginTop: '220px',
                     borderRadius: 40,
                     cursor: 'pointer',
-                    marginTop:'-5%',
+                    marginTop:'-18%',
                     marginBottom:'5%'
                 }}
                 // width="50%"
                 // height="50%"
                // className="video"
-                height= '70%'
-                width= '70%'
+                height= '60%'
+                width= '60%'
                 loop
                 controls
                 autoPlay={true}>
